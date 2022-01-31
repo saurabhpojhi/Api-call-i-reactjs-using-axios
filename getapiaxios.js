@@ -16,9 +16,9 @@ function App() {
 
     return (
       <tr>
-        <td>{data.id} </td>
-        <td>{data.title} </td>
-        <td>{data.body} </td>
+        <td style={{border: '1px solid black'}}>  {data.id} </td>
+        <td style={{border: '1px solid black'}}>  {data.title} </td>
+        <td style={{border: '1px solid black'}}>  {data.body} </td>
       </tr>
     )
   })
